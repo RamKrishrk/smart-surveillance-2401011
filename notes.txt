@@ -1,0 +1,11 @@
+# Check if your Linux server has a camera
+ls /dev/video*
+
+# Install the necessary packages
+sudo apt update
+sudo apt install python3-opencv ffmpeg libsm6 libxext6 -y
+pip install flask
+
+
+# Run it
+python3 app.py
