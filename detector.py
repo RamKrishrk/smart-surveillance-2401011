@@ -27,9 +27,9 @@ ALERT_COOLDOWN = 20         # Cooldown time between alerts (seconds)
 # ======= SMTP Email Settings =======
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-EMAIL_SENDER = "ramakrishnan.learnings14@gmail.com"
-EMAIL_PASSWORD = "esdx xeyg rppz ooak"  # app password
-EMAIL_RECEIVER = "im.ramakrishnan.l@gmail.com"
+EMAIL_SENDER = "a@gmail.com"
+EMAIL_PASSWORD = "asc"  # app password
+EMAIL_RECEIVER = "b@gmail.com"
 
 # Directory for saving detection images
 SAVE_DIR = os.path.join("static", "detections")
